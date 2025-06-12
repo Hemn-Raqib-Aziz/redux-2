@@ -1,0 +1,141 @@
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  animation: fadeInGrid 0.6s ease;
+}
+
+@keyframes fadeInGrid {
+  0% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.post-card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+  animation: fadeInCard 0.4s ease-in-out;
+}
+
+.post-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1);
+}
+
+.post-card span {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.post-card h2 {
+  margin: 0.5rem 0 0.3rem;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.post-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
+
+@keyframes fadeInCard {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.author-initials {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 0.9rem;
+  user-select: none;
+}
+
+.author-initials:hover {
+  background-color: white;
+  color: black;
+}
+
+.post-date {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+
+
+
+.author-tooltip-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+
+
+.tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  max-width: 200px;
+  background-color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 130%; 
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.author-initials:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  transform: translateX(-50%) translateY(-4px);
+}
+
+.post-date {
+  font-size: 0.85rem;
+  color: black;
+}
