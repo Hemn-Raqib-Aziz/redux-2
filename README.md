@@ -105,7 +105,7 @@ Manages static list of users:
 
 Simulates authentication state:
 - `auth: false` by default
-- `login()` – sets `auth: true`
+- `authorization()` – sets `auth: true`
 - `logout()` – sets `auth: false`
 
 ---
