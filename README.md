@@ -147,7 +147,7 @@ framer-motion
 react-hot-toast
 
 
-## screenshots
+## screenshot
 
 ### main page
 ![localhost_5173_](https://github.com/user-attachments/assets/788ef69e-4fa6-4085-b42b-64bf82af72c3)
