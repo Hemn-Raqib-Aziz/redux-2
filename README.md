@@ -146,3 +146,33 @@ react-router-dom
 framer-motion
 react-hot-toast
 
+
+## screenshots
+
+### main page
+![localhost_5173_](https://github.com/user-attachments/assets/788ef69e-4fa6-4085-b42b-64bf82af72c3)
+
+
+### Authorization modal
+
+<img width="960" alt="login" src="https://github.com/user-attachments/assets/ac6cd7ec-2f6d-40c9-a550-26b30ee2e087" />
+
+
+### Login Modal
+<img width="960" alt="login-2" src="https://github.com/user-attachments/assets/adb57c6c-5789-48af-a41b-6b1a04e589a5" />
+
+
+### Add Post Modal
+
+<img width="960" alt="login-2" src="https://github.com/user-attachments/assets/d3645afa-8d3a-4c28-98c5-757648172f61" />
+
+### Post Page
+![localhost_5173_post_92](https://github.com/user-attachments/assets/162d1e05-f805-4f0c-85bc-3ed652bf4ac8)
+
+### authors profile with their posts
+![localhost_5173_profile_10](https://github.com/user-attachments/assets/be92f60a-327a-4b53-9381-c05e412f0a38)
+
+
+
+
+
