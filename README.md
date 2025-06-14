@@ -146,6 +146,7 @@ react-router-dom
 framer-motion
 react-hot-toast
 
+```
 
 ## screenshot
 
